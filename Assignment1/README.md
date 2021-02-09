@@ -1,14 +1,14 @@
 
 # Sentence parser and word search
 
-The program gets text as an input and divides it into sentences. Then it searches for sentences that contain words from input and highlights them.
+The program gets text as an input and divides it into sentences. Then it searches for sentences that contain words from input and highlights them.</n>
 <em>Remark:</em> The program is not sensitive to a case e.g ```drop``` is not equal to ```dRoP```
 
 ## Requirements
 
-<b>Version of the language:</b> C++11 
-<b>Input:</b> file ```in.txt``` must be in the same folder as ```main.cpp```
-<b>Output:</b> file ```out.txt``` must be in the same folder as ```main.cpp```
+<b>Version of the language:</b> C++11 </n>
+<b>Input:</b> file ```in.txt``` must be in the same folder as ```main.cpp```</n>
+<b>Output:</b> file ```out.txt``` must be in the same folder as ```main.cpp```</n>
 
 ## Input
 
