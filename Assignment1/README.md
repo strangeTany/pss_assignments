@@ -1,3 +1,4 @@
+
 # Sentence parser and word search
 
 The program gets text as an input and divides it into sentences. Then it searches for sentences that contain words from input and highlights them.
