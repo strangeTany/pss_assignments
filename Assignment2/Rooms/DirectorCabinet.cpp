@@ -4,16 +4,12 @@
 
 #include "DirectorCabinet.h"
 
-const std::vector<User*> &DirectorCabinet::getDropList() const {
+const std::vector<User> &DirectorCabinet::getDropList() const {
     return dropList;
 }
 
-void DirectorCabinet::setDropList(std::vector<User*> dropList) {
+void DirectorCabinet::setDropList(const std::vector<User> &dropList) {
     DirectorCabinet::dropList = dropList;
 }
 
 DirectorCabinet::DirectorCabinet(int roomNumber) : Room(roomNumber) {}
-
-bool DirectorCabinet::open(const User & user) {
-    return Room::open( user);
-}

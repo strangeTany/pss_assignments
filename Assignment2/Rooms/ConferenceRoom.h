@@ -22,8 +22,6 @@ public:
 
     void setTvCondition(Condition tvCondition);
 
-    bool open(const User &) override;
-
     ConferenceRoom(int roomNumber, const std::string &name);
 
     ConferenceRoom(int roomNumber);

@@ -35,8 +35,6 @@ public:
 
     virtual void fixDevice(Condition& condition);
 
-    bool operator==(const User&);
-
     User(std::string name, std::string surname, Level accessLevel, std::string email);
 
     User(std::string name, std::string surname, std::string email);

@@ -14,9 +14,8 @@ class Director : User {
 private:
     Level accessLevel = red;
 public:
-    void dropEverybody(std::vector<User*>);
+    void dropEverybody(std::vector<User>);
     Student * createStudent(std::string, std::string);
-void fixDevice(Condition &condition) override;
 
     Director(const std::string &name, const std::string &surname, const std::string &email);
 };

@@ -17,8 +17,3 @@ void LabEmployee::setEducation(const std::string &education) {
 LabEmployee::LabEmployee(const std::string &name, const std::string &surname, Level accessLevel,
                          const std::string &email, std::string education) : User(name, surname, accessLevel,
                                                                                         email), education(std::move(education)) {}
-
-void LabEmployee::fixDevice(Condition &condition) {
-    condition=on;
-
-}

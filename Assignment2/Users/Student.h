@@ -8,7 +8,7 @@
 
 #include "User.h"
 
-class Student: public User {
+class Student: User {
 public:
     Student(const std::string &name, const std::string &surname, Level accessLevel, const std::string &email);
     void fixDevice(Condition& condition) override;

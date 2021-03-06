@@ -5,18 +5,14 @@
 #ifndef ASSIGNMENT2_ROOM_H
 #define ASSIGNMENT2_ROOM_H
 
-#ifndef CONDITION
-#define CONDITION
-enum Condition {
-    on, off, broken
-};
-#endif
-
 #include "../AccessLevel.cpp"
 #include "../Users/User.h"
 #include <string>
 
-class User;
+enum Condition {
+    on, off, broken
+};
+
 class Room {
 private:
     int roomNumber;

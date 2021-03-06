@@ -18,7 +18,6 @@ public:
 
     LabEmployee(const std::string &name, const std::string &surname, Level accessLevel, const std::string &email,
                 std::string education);
-    void fixDevice(Condition &condition) override;
 };
 
 
