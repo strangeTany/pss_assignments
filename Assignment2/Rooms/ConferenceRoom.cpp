@@ -23,3 +23,7 @@ void ConferenceRoom::setTvCondition(Condition tvCondition) {
 ConferenceRoom::ConferenceRoom(int roomNumber) : Room(roomNumber) {busy= false;}
 
 ConferenceRoom::ConferenceRoom(int roomNumber, const std::string &name) : Room(roomNumber, name) {busy= false;}
+
+bool ConferenceRoom::open(const User & user) {
+    return Room::open(user);
+}

@@ -14,6 +14,7 @@ private:
     Level accessLevel = green;
 public:
     Condition getProjectorCondition() const;
+    bool open(const User &) override;
 
     void setProjectorCondition(Condition projectorCondition);
 

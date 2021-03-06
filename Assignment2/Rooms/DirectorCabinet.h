@@ -8,15 +8,17 @@
 
 #include <vector>
 #include "Room.h"
+#include "../Users/Student.h"
 
 class DirectorCabinet: Room {
 private:
-    std::vector<User> dropList;
+    std::vector<User*> dropList;
     Level accessLevel = red;
 public:
-    const std::vector<User> &getDropList() const;
+    const std::vector<User*> &getDropList() const;
 
-    void setDropList(const std::vector<User> &dropList);
+    void setDropList(std::vector<User*> dropList);
+    bool open(const User &) override;
 
     DirectorCabinet(int roomNumber);
 };

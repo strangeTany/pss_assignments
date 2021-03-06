@@ -44,3 +44,11 @@ User::User(std::string name, std::string surname, Level accessLevel, std::string
 User::User(std::string name, std::string surname, std::string email) : name(std::move(name)),
                                                                                             surname(std::move(surname)),
                                                                                             email(std::move(email)) {}
+
+bool User::operator==(const User & user) {
+    return user.email==this->email;
+}
+
+void User::fixDevice(Condition &condition) {
+
+}

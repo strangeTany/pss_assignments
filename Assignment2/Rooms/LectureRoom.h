@@ -17,6 +17,8 @@ public:
 
     void setMicState(Condition micCondition);
 
+    bool open(const User &) override;
+
     LectureRoom(int roomNumber, const std::string &name);
 };
 
