@@ -8,7 +8,7 @@
 
 #include "User.h"
 
-class LabEmployee: User {
+class LabEmployee:public User {
 private:
     std::string education;
 public:

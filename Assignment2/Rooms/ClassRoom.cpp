@@ -12,8 +12,5 @@ void ClassRoom::setProjectorCondition(Condition projectorCondition) {
     ClassRoom::projectorCondition = projectorCondition;
 }
 
-ClassRoom::ClassRoom(int roomNumber) : Room(roomNumber) {}
+ClassRoom::ClassRoom(int roomNumber, int floor) : Room(roomNumber, floor, green) {}
 
-bool ClassRoom::open(const User & user) {
-    return Room::open(user);
-}

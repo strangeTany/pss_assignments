@@ -37,6 +37,7 @@ CMakeFiles/Assignment2.dir/Rooms/LectureRoom.cpp.o: ../Users/User.h
 CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o: ../AccessLevel.cpp
 CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o: ../Rooms/Room.cpp
 CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o: ../Rooms/Room.h
+CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o: ../Users/Admin.h
 CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o: ../Users/User.h
 
 CMakeFiles/Assignment2.dir/Users/Admin.cpp.o: ../AccessLevel.cpp
@@ -51,6 +52,12 @@ CMakeFiles/Assignment2.dir/Users/Director.cpp.o: ../Users/Director.cpp
 CMakeFiles/Assignment2.dir/Users/Director.cpp.o: ../Users/Director.h
 CMakeFiles/Assignment2.dir/Users/Director.cpp.o: ../Users/Student.h
 CMakeFiles/Assignment2.dir/Users/Director.cpp.o: ../Users/User.h
+
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o: ../AccessLevel.cpp
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o: ../Rooms/Room.h
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o: ../Users/Guest.cpp
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o: ../Users/Guest.h
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o: ../Users/User.h
 
 CMakeFiles/Assignment2.dir/Users/LabEmployee.cpp.o: ../AccessLevel.cpp
 CMakeFiles/Assignment2.dir/Users/LabEmployee.cpp.o: ../Rooms/Room.h
@@ -77,11 +84,13 @@ CMakeFiles/Assignment2.dir/Users/User.cpp.o: ../Users/User.cpp
 CMakeFiles/Assignment2.dir/Users/User.cpp.o: ../Users/User.h
 
 CMakeFiles/Assignment2.dir/main.cpp.o: ../AccessLevel.cpp
+CMakeFiles/Assignment2.dir/main.cpp.o: ../Rooms/ConferenceRoom.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Rooms/DirectorCabinet.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Rooms/LectureRoom.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Rooms/Room.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/Admin.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/Director.h
+CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/Guest.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/LabEmployee.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/Professor.h
 CMakeFiles/Assignment2.dir/main.cpp.o: ../Users/Student.h

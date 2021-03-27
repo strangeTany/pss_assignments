@@ -38,17 +38,24 @@ void User::setEmail(const std::string &email) {
     User::email = email;
 }
 
-User::User(std::string name, std::string surname, Level accessLevel, std::string email) : name(std::move(
-        name)), surname(std::move(surname)), accessLevel(accessLevel), email(std::move(email)) {}
-
 User::User(std::string name, std::string surname, std::string email) : name(std::move(name)),
                                                                                             surname(std::move(surname)),
                                                                                             email(std::move(email)) {}
+User::User(std::string name, std::string surname) : name(std::move(name)), surname(std::move(surname)) {}
+User::User(std::string name, std::string surname, Level accessLevel, std::string email) : name(std::move(
+        name)), surname(std::move(surname)), accessLevel(accessLevel), email(std::move(email)) {}
 
-bool User::operator==(const User & user) {
+bool User::operator==(const User& user) {
     return user.email==this->email;
 }
 
-void User::fixDevice(Condition &condition) {
-
+void User::emergency() const {
+    std::vector<Room*> rooms = Room::getAllRooms();
+    for(auto r: rooms){
+        r->open(*this, true);
+    }
 }
+
+
+
+

@@ -8,18 +8,15 @@
 
 #include "Room.h"
 
-class LectureRoom : Room {
+class LectureRoom :public Room {
 private:
-    Level accessLevel = yellow;
     Condition micCondition = off;
 public:
     Condition getMicState() const;
 
     void setMicState(Condition micCondition);
 
-    bool open(const User &) override;
-
-    LectureRoom(int roomNumber, const std::string &name);
+    LectureRoom(int roomNumber, int floor, const std::string &name);
 };
 
 

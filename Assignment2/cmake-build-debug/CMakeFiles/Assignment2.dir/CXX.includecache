@@ -8,6 +8,10 @@
 
 /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
 
+/home/strangetany/pss_assignments/Assignment2/Rooms/ConferenceRoom.h
+Room.h
+/home/strangetany/pss_assignments/Assignment2/Rooms/Room.h
+
 /home/strangetany/pss_assignments/Assignment2/Rooms/DirectorCabinet.h
 vector
 -
@@ -27,6 +31,8 @@ Room.h
 /home/strangetany/pss_assignments/Assignment2/Users/User.h
 string
 -
+vector
+-
 
 /home/strangetany/pss_assignments/Assignment2/Users/Admin.h
 User.h
@@ -39,6 +45,10 @@ User.h
 /home/strangetany/pss_assignments/Assignment2/Users/User.h
 Student.h
 /home/strangetany/pss_assignments/Assignment2/Users/Student.h
+
+/home/strangetany/pss_assignments/Assignment2/Users/Guest.h
+User.h
+/home/strangetany/pss_assignments/Assignment2/Users/User.h
 
 /home/strangetany/pss_assignments/Assignment2/Users/LabEmployee.h
 User.h
@@ -75,4 +85,8 @@ Rooms/LectureRoom.h
 /home/strangetany/pss_assignments/Assignment2/Rooms/LectureRoom.h
 Rooms/DirectorCabinet.h
 /home/strangetany/pss_assignments/Assignment2/Rooms/DirectorCabinet.h
+Users/Guest.h
+/home/strangetany/pss_assignments/Assignment2/Users/Guest.h
+Rooms/ConferenceRoom.h
+/home/strangetany/pss_assignments/Assignment2/Rooms/ConferenceRoom.h
 

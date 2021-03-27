@@ -3,5 +3,5 @@
 //
 #ifndef LEVEL
 #define LEVEL
-enum Level {green, yellow, red, no_level};
+enum Level {no_level, blue, green, yellow, red};
 #endif

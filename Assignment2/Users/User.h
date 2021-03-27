@@ -11,6 +11,7 @@
 #include "../Rooms/Room.h"
 
 class User {
+
 private:
     std::string name;
     std::string surname;
@@ -33,13 +34,18 @@ public:
 
     void setEmail(const std::string &email);
 
-    virtual void fixDevice(Condition& condition);
+    virtual void fixDevice(Condition& condition)=0;
 
     bool operator==(const User&);
 
     User(std::string name, std::string surname, Level accessLevel, std::string email);
 
     User(std::string name, std::string surname, std::string email);
+
+    User(std::string name, std::string surname);
+
+    void emergency() const;
+
 };
 
 

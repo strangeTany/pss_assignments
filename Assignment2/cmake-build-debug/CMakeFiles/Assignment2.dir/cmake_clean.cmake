@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o"
   "CMakeFiles/Assignment2.dir/Users/Admin.cpp.o"
   "CMakeFiles/Assignment2.dir/Users/Director.cpp.o"
+  "CMakeFiles/Assignment2.dir/Users/Guest.cpp.o"
   "CMakeFiles/Assignment2.dir/Users/LabEmployee.cpp.o"
   "CMakeFiles/Assignment2.dir/Users/Professor.cpp.o"
   "CMakeFiles/Assignment2.dir/Users/Student.cpp.o"

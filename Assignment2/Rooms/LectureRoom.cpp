@@ -11,11 +11,8 @@ void LectureRoom::setMicState(Condition micCondition) {
     LectureRoom::micCondition = micCondition;
 }
 
-LectureRoom::LectureRoom(int roomNumber, const std::string &name) : Room(roomNumber, name) {
+LectureRoom::LectureRoom(int roomNumber, int floor, const std::string &name) : Room(roomNumber, floor,blue, name) {
     if (roomNumber == 108)
         micCondition = broken;
 }
 
-bool LectureRoom::open(const User & user) {
-    return Room::open(user);
-}
