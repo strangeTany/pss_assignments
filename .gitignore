@@ -4,3 +4,5 @@ Assignment1/in.txt
 .vscode/launch.json
 .vscode/settings.json
 Assignment1/out.txt
+cmake-build-debug
+.idea
