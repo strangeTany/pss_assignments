@@ -59,10 +59,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/138/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /snap/clion/145/bin/cmake/linux/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/138/bin/cmake/linux/bin/cmake -E rm -f
+RM = /snap/clion/145/bin/cmake/linux/bin/cmake -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -79,7 +79,7 @@ CMAKE_BINARY_DIR = /home/strangetany/pss_assignments/Assignment2/cmake-build-deb
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/145/bin/cmake/linux/bin/cmake --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -90,7 +90,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/138/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/145/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -386,6 +386,33 @@ Users/Director.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Users/Director.cpp.s
 .PHONY : Users/Director.cpp.s
 
+Users/Guest.o: Users/Guest.cpp.o
+
+.PHONY : Users/Guest.o
+
+# target to build an object file
+Users/Guest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Users/Guest.cpp.o
+.PHONY : Users/Guest.cpp.o
+
+Users/Guest.i: Users/Guest.cpp.i
+
+.PHONY : Users/Guest.i
+
+# target to preprocess a source file
+Users/Guest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Users/Guest.cpp.i
+.PHONY : Users/Guest.cpp.i
+
+Users/Guest.s: Users/Guest.cpp.s
+
+.PHONY : Users/Guest.s
+
+# target to generate assembly for a file
+Users/Guest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Assignment2.dir/build.make CMakeFiles/Assignment2.dir/Users/Guest.cpp.s
+.PHONY : Users/Guest.cpp.s
+
 Users/LabEmployee.o: Users/LabEmployee.cpp.o
 
 .PHONY : Users/LabEmployee.o
@@ -557,6 +584,9 @@ help:
 	@echo "... Users/Director.o"
 	@echo "... Users/Director.i"
 	@echo "... Users/Director.s"
+	@echo "... Users/Guest.o"
+	@echo "... Users/Guest.i"
+	@echo "... Users/Guest.s"
 	@echo "... Users/LabEmployee.o"
 	@echo "... Users/LabEmployee.i"
 	@echo "... Users/LabEmployee.s"

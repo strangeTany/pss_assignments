@@ -9,7 +9,7 @@
 #include "User.h"
 #include "Admin.h"
 
-class Professor: User {
+class Professor:public User {
 private:
     std::string subject;
     std::string favouriteTorture;
@@ -27,7 +27,7 @@ public:
 
     void fixDevice(Condition &condition) override;
 
-    void callAdmin(Admin, Condition&);
+    static void callAdmin(Admin, Condition&);
 
 };
 

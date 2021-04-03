@@ -38,6 +38,7 @@ CMakeFiles/Assignment2.dir/Rooms/Room.cpp.o
  /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
  /home/strangetany/pss_assignments/Assignment2/Rooms/Room.cpp
  /home/strangetany/pss_assignments/Assignment2/Rooms/Room.h
+ /home/strangetany/pss_assignments/Assignment2/Users/Admin.h
  /home/strangetany/pss_assignments/Assignment2/Users/User.h
 CMakeFiles/Assignment2.dir/Users/Admin.cpp.o
  /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
@@ -51,6 +52,12 @@ CMakeFiles/Assignment2.dir/Users/Director.cpp.o
  /home/strangetany/pss_assignments/Assignment2/Users/Director.cpp
  /home/strangetany/pss_assignments/Assignment2/Users/Director.h
  /home/strangetany/pss_assignments/Assignment2/Users/Student.h
+ /home/strangetany/pss_assignments/Assignment2/Users/User.h
+CMakeFiles/Assignment2.dir/Users/Guest.cpp.o
+ /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
+ /home/strangetany/pss_assignments/Assignment2/Rooms/Room.h
+ /home/strangetany/pss_assignments/Assignment2/Users/Guest.cpp
+ /home/strangetany/pss_assignments/Assignment2/Users/Guest.h
  /home/strangetany/pss_assignments/Assignment2/Users/User.h
 CMakeFiles/Assignment2.dir/Users/LabEmployee.cpp.o
  /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
@@ -78,11 +85,13 @@ CMakeFiles/Assignment2.dir/Users/User.cpp.o
  /home/strangetany/pss_assignments/Assignment2/Users/User.h
 CMakeFiles/Assignment2.dir/main.cpp.o
  /home/strangetany/pss_assignments/Assignment2/AccessLevel.cpp
+ /home/strangetany/pss_assignments/Assignment2/Rooms/ConferenceRoom.h
  /home/strangetany/pss_assignments/Assignment2/Rooms/DirectorCabinet.h
  /home/strangetany/pss_assignments/Assignment2/Rooms/LectureRoom.h
  /home/strangetany/pss_assignments/Assignment2/Rooms/Room.h
  /home/strangetany/pss_assignments/Assignment2/Users/Admin.h
  /home/strangetany/pss_assignments/Assignment2/Users/Director.h
+ /home/strangetany/pss_assignments/Assignment2/Users/Guest.h
  /home/strangetany/pss_assignments/Assignment2/Users/LabEmployee.h
  /home/strangetany/pss_assignments/Assignment2/Users/Professor.h
  /home/strangetany/pss_assignments/Assignment2/Users/Student.h

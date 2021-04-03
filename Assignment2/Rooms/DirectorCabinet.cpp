@@ -12,8 +12,4 @@ void DirectorCabinet::setDropList(std::vector<User*> dropList) {
     DirectorCabinet::dropList = dropList;
 }
 
-DirectorCabinet::DirectorCabinet(int roomNumber) : Room(roomNumber) {}
-
-bool DirectorCabinet::open(const User & user) {
-    return Room::open( user);
-}
+DirectorCabinet::DirectorCabinet(int roomNumber, int floor) : Room(roomNumber, floor, red) {}

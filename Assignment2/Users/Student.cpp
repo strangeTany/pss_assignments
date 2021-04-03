@@ -5,8 +5,7 @@
 #include <iostream>
 #include "Student.h"
 
-Student::Student(const std::string &name, const std::string &surname, Level accessLevel, const std::string &email)
-        : User(name, surname, accessLevel, email) {}
+
 
 void Student::fixDevice(Condition& condition) {
     if(condition==off)
@@ -15,3 +14,6 @@ void Student::fixDevice(Condition& condition) {
         std::cout << "sad((("<<std::endl;
 
 }
+
+Student::Student(const std::string &name, const std::string &surname, Level accessLevel, const std::string &email)
+        : User(name, surname, accessLevel, email) {}

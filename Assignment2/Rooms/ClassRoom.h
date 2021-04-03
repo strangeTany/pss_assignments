@@ -8,17 +8,15 @@
 
 #include "Room.h"
 
-class ClassRoom : Room {
+class ClassRoom :public Room {
 private:
     Condition projectorCondition = off;
-    Level accessLevel = green;
 public:
     Condition getProjectorCondition() const;
-    bool open(const User &) override;
 
     void setProjectorCondition(Condition projectorCondition);
 
-    ClassRoom(int roomNumber);
+    ClassRoom(int roomNumber, int floor);
 };
 
 

@@ -11,6 +11,7 @@
 class Student: public User {
 public:
     Student(const std::string &name, const std::string &surname, Level accessLevel, const std::string &email);
+
     void fixDevice(Condition& condition) override;
 };
 

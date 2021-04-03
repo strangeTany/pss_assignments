@@ -15,18 +15,29 @@ enum Condition {
 #include "../AccessLevel.cpp"
 #include "../Users/User.h"
 #include <string>
+#include <vector>
 
 class User;
 class Room {
+protected:
+    Room(int roomNumber, int floor, Level accessLevel);
+
+    Room(int roomNumber, int floor, Level accessLevel, std::string name);
+
+    void setClosed(bool closed);
+
+    inline static std::vector<Room*> allRooms;
+
 private:
     int roomNumber;
     Level accessLevel;
     std::string name;
+    bool closed = true;
+    int floor;
 public:
-    Room(int roomNumber);
+    std::vector<std::string> specialAccess;
 
-    Room(int roomNumber, std::string name);
-
+    Room(int roomNumber, int floor, std::string name);
 
     int getRoomNumber() const;
 
@@ -38,7 +49,13 @@ public:
 
     void setName(const std::string &name);
 
-    virtual bool open(const User&);
+    int getFloor() const;
+
+    virtual bool open(const User&, bool isEmergency);
+
+    virtual void close();
+
+    static const std::vector<Room *> &getAllRooms();
 
 };
 

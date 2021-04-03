@@ -9,18 +9,19 @@
 #include <vector>
 #include "Room.h"
 
-class Cabinet: Room {
+class Cabinet: public Room {
 private:
-    std::vector<User> employees;
-    Level accessLevel = yellow;
+    std::vector<User*> employees;
 public:
-    const std::vector<User> &getEmployees() const;
+    const std::vector<User*> &getEmployees() const;
 
-    void setEmployees(const std::vector<User> &employees);
+    void setEmployees(const std::vector<User*> &employees);
 
-    void addAccess(const User&);
+    void addAccess(User *);
 
-    bool open(const User&) override;
+    Cabinet(int roomNumber, int floor, std::vector<User*> employees);
+
+    bool open(const User&, bool isEmergency) override;
 };
 
 

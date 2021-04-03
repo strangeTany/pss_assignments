@@ -8,11 +8,10 @@
 
 #include "Room.h"
 
-class ConferenceRoom: Room {
+class ConferenceRoom:public Room {
 private:
     bool busy;
     Condition tvCondition = off;
-    Level accessLevel = green;
 public:
     bool isBusy() const;
 
@@ -22,11 +21,8 @@ public:
 
     void setTvCondition(Condition tvCondition);
 
-    bool open(const User &) override;
+    ConferenceRoom(int roomNumber, int floor, const std::string &name);
 
-    ConferenceRoom(int roomNumber, const std::string &name);
-
-    ConferenceRoom(int roomNumber);
 };
 
 
