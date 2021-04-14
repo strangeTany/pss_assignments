@@ -12,11 +12,12 @@ template <typename T>
 class DataBase {
     std::fstream DB;
 public:
-   explicit DataBase(const std::string& DBName);
-   T find(const std::string& id);
-   bool add(T newObject);
+   DataBase(const std::string& DBName);
+   T* find(const std::string& id);
+   bool add(std::string newObject);
    std::vector<T> returnAll();
 
+    DataBase();
 };
 
 

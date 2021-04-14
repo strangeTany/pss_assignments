@@ -9,32 +9,33 @@ template<typename T>
 DataBase<T>::DataBase(const std::string &DBName):DB(std::fstream(DBName + ".txt")) {}
 
 template<typename T>
-T DataBase<T>::find(const std::string &id) {
+T* DataBase<T>::find(const std::string &id) {
     std::string line;
     while (std::getline(DB, line)) {
         auto iss = std::istringstream(line);
         auto idFile = std::string();
         iss >> idFile;
-        if (id == idFile)
-            return line;
+        if (id == idFile) {
+            T* t;
+            return t -> serialize(line);
+        }
     }
     return nullptr;
 }
 
 template<typename T>
-bool DataBase<T>::add(T newObject) {
+bool DataBase<T>::add(std::string newObject) {
     std::fstream tmpFile("tmp.txt");
     std::string line;
-    std::string newObjectString = newObject.serialize();
     auto newObjectId = std::string();
-    auto iss1 = std::istringstream(newObjectString);
+    auto iss1 = std::istringstream(newObject);
     iss1 >> newObjectId;
     while (std::getline(DB, line)) {
         auto iss = std::istringstream(line);
         auto idFile = std::string();
         iss >> idFile;
         if (newObjectId == idFile)
-            tmpFile << newObjectString;
+            tmpFile << newObject;
         else
             tmpFile << line;
     }
@@ -52,6 +53,9 @@ std::vector<T> DataBase<T>::returnAll() {
     }
     return allData;
 }
+
+template<typename T>
+DataBase<T>::DataBase() {}
 
 
 

@@ -8,19 +8,26 @@
 
 #include <string>
 #include <vector>
-#include "Order.h"
 #include "Car.h"
 #include "Status.cpp"
+#include "DataBase.h"
+#include "Order.h"
+
 
 class Driver {
+    Driver(std::string name, std::string password);
+
     std::string name;
+    std::string password;
     double rating;
     std::vector<std::string> orderHistory;
     Car car;
     Status status;
+    DataBase<Driver> db;
+    DataBase<Order> orders;
 
 public:
-    bool login(const std::string& password);
+    bool login(const std::string &password);
 
     const std::vector<std::string> &getOrderHistory() const;
 
@@ -37,10 +44,15 @@ public:
     const std::string &getName() const;
 
     std::string toString();
-    void serialize(const std::string&);
+
+    void serialize(const std::string &);
+
+    virtual ~Driver();
+
     Driver(std::string name);
 
     Driver();
+
 };
 
 

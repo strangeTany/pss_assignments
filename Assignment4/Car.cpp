@@ -40,3 +40,7 @@ const std::pair<double, double> &Car::getCurrentCoordinates() {
     return std::pair<double, double>(std::rand(), std::rand());
 }
 
+CarTypes Car::getCarType() const {
+    return carType;
+}
+

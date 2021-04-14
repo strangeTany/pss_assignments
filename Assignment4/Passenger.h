@@ -15,16 +15,21 @@
 
 class Passenger {
     std::string name;
+    std::string password;
     double rating;
     std::vector<std::string> orderHistory;
     std::vector<std::pair<PaymentMethods, std::string>> paymentMethods;
     std::vector<std::string> pinnedAddresses;
+    DataBase<Passenger> db;
+    DataBase<Order> orders;
+    DataBase<Driver> drivers;
+    Passenger(std::string name, std::string password);
 
 public:
 
     bool login(const std::string& password);
 
-    getPaymentMethods() const;
+    std::pair<PaymentMethods, std::string> getPaymentMethods() const;
 
     void setPaymentMethods(std::pair<PaymentMethods, std::string> paymentMethod);
 

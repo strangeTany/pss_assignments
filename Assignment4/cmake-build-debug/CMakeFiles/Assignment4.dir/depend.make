@@ -12,6 +12,7 @@ CMakeFiles/Assignment4.dir/DataBase.cpp.o: ../DataBase.h
 
 CMakeFiles/Assignment4.dir/Driver.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/Driver.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/Driver.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/Driver.cpp.o: ../Driver.cpp
 CMakeFiles/Assignment4.dir/Driver.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/Driver.cpp.o: ../Order.h
@@ -19,6 +20,7 @@ CMakeFiles/Assignment4.dir/Driver.cpp.o: ../Status.cpp
 
 CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../DriverGateway.cpp
 CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../DriverGateway.h
@@ -27,6 +29,7 @@ CMakeFiles/Assignment4.dir/DriverGateway.cpp.o: ../Status.cpp
 
 CMakeFiles/Assignment4.dir/Order.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/Order.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/Order.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/Order.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/Order.cpp.o: ../Order.cpp
 CMakeFiles/Assignment4.dir/Order.cpp.o: ../Order.h
@@ -34,6 +37,7 @@ CMakeFiles/Assignment4.dir/Order.cpp.o: ../Status.cpp
 
 CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../Order.h
 CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../Passenger.cpp
@@ -44,6 +48,7 @@ CMakeFiles/Assignment4.dir/Passenger.cpp.o: ../Status.cpp
 
 CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../Order.h
 CMakeFiles/Assignment4.dir/PassengerGateway.cpp.o: ../Passenger.h
@@ -58,6 +63,7 @@ CMakeFiles/Assignment4.dir/Status.cpp.o: ../Status.cpp
 
 CMakeFiles/Assignment4.dir/main.cpp.o: ../Car.h
 CMakeFiles/Assignment4.dir/main.cpp.o: ../CarTypes.cpp
+CMakeFiles/Assignment4.dir/main.cpp.o: ../DataBase.h
 CMakeFiles/Assignment4.dir/main.cpp.o: ../Driver.h
 CMakeFiles/Assignment4.dir/main.cpp.o: ../DriverGateway.h
 CMakeFiles/Assignment4.dir/main.cpp.o: ../Order.h

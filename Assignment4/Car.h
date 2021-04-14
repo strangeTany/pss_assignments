@@ -27,6 +27,8 @@ public:
     void serialize(const std::string&);
 
     static const std::pair<double, double> &getCurrentCoordinates() ;
+
+    CarTypes getCarType() const;
 /*
  * A Car has model,
  * carType,

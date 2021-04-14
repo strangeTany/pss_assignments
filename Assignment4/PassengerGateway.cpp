@@ -75,7 +75,7 @@ void PassengerGateway::orderTaxi() {
         std::cout<<"Do you want to change payment method [y/N]"<<std::endl;
         std::cin >> answer;
         if(answer=="y"){
-            //TODO: change payment method
+            std::cout<<"You do not really want to";
         }
         passenger.orderTheRide(newOrder);
     }

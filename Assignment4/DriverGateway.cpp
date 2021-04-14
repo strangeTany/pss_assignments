@@ -20,7 +20,7 @@ void DriverGateway::start() {
 
     Driver driver(name.append(surname));
     if (driver.login(password)) {
-        this->driver = driver;
+        //TODO: this->driver = driver;
         return;
     }
     std::cout << "Wrong name or password. Try again" << std::endl;
