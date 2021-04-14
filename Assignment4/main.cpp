@@ -1,6 +1,9 @@
 #include <iostream>
+#include "DriverGateway.h"
+#include "PassengerGateway.h"
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
+    DriverGateway driverGateway;
+    PassengerGateway passengerGateway;
     return 0;
 }

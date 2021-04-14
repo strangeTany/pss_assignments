@@ -82,6 +82,57 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Car.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Car.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/CarTypes.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/DataBase.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/DataBase.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Driver.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Driver.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/DriverGateway.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/DriverGateway.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Order.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Order.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Passenger.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Passenger.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/PassengerGateway.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/PassengerGateway.h">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/PaymentMethods.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
+		<Unit filename="/home/strangetany/pss_assignments/Assignment4/Status.cpp">
+			<Option target="Assignment4"/>
+		</Unit>
 		<Unit filename="/home/strangetany/pss_assignments/Assignment4/main.cpp">
 			<Option target="Assignment4"/>
 		</Unit>
